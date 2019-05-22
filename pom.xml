@@ -14,7 +14,7 @@
 	<groupId>br.com.dbc</groupId>
 	<artifactId>ServicoRest</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 	<name>ServicoRest</name>
 	<description>Servico Rest gerado com Spring Boot</description>
 
