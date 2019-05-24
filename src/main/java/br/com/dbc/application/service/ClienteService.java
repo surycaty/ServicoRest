@@ -20,6 +20,10 @@ public class ClienteService {
 		return repository.findAll();
 	}
 	
+	public Cliente consultar(Integer id) {
+		return repository.findById(id).get();
+	}
+	
 	public void salvar(Cliente cliente) {
 		repository.save(cliente);
 	}

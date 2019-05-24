@@ -40,6 +40,16 @@ public class ClienteController {
 	public @ResponseBody List<Cliente> listarTodos() {
 		return service.listarClientes();
 	}
+	
+	/**
+	 * Consultar registro cadastrado por ID
+	 * 
+	 * @return
+	 */
+	@GetMapping(path = "/consultar")
+	public @ResponseBody Cliente consultar(int id) {
+		return service.consultar(id);
+	}
 
 	/**
 	 * Salvar um novo registro
